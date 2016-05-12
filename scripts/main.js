@@ -1,41 +1,81 @@
 
 $(function() {
+    WTF.init({
+            "heading": [
+                "Code a fucking",
+                "Tell Paul Graham you have a"
+            ],
 
-    // Populate using an object literal
+            "response": [
+                "Already fucking seen one",
+                "Zuckerberg just announced it",
+                "They just turned off their API",
+                "It's on Twitter"
+            ],
 
-    // WTF.init({
+            "template": [
+                "bot for @platform that @action for @who.",
+                "@platform enabled bot for @who that @action."
+            ],
 
-    //     heading: [
-    //         "It's a fucking",
-    //         "Check this shit out, a fucking"
-    //     ],
-    //     response: [
-    //         "Already fucking seen one",
-    //         "Give me a-fucking-nother one",
-    //         "Don't really give a fuck"
-    //     ],
-    //     template: [
-    //         "Big @color @animal",
-    //         "Silly @animal with @color fur"
-    //     ],
-    //     animal: [
-    //         "dog",
-    //         "cat",
-    //         "rabbit"
-    //     ],
-    //     color: [
-    //         "red",
-    //         "blue",
-    //         "green",
-    //         "yellow"
-    //     ]
-    // });
+            "platform": [
+                "Messenger",
+                "Telegram",
+                "Secret",
+                "Whatsapp",
+                "Twitter",
+                "Facebook",
+                "WeChat",
+                "Skype",
+                "Weibo",
+                "Line",
+                "Viber",
+                "Siri",
+                "Viv",
+                "Cortana",
+                "Alexa",
+                "Google Now"
+            ],
 
-    // Populate using a JSON file
-    // WTF.init( 'sample.json' );
+            "action": [
+                "buys clothes",
+                "does therapy",
+                "orders pizza",
+                "pays rent",
+                "plays exercise vidoes",
+                "drinks 6-packs",
+                "reads the news",
+                "books an airplane flight",
+                "wins a chess game",
+                "deposits checks",
+                "withdraws cash",
+                "schedules a meeting",
+                "diagnoses your pain",
+                "says a prayer",
+                "tells a joke",
+                "announces the time",
+                "writes a Haiku",
+                "flips a coin",
+                "does your job",
+                "finds a hotel room"
+            ],
 
-    // Populate using a Google spreadsheet ID (you must publish it first!)
-    // @see https://support.google.com/drive/answer/37579?hl=en
-    WTF.init( '0AvG1Hx204EyydF9ub1M2cVJ3Z1VGdDhTSWg0ZV9LNGc' );
-
+            "who": [
+                "toddlers",
+                "teenagers",
+                "elderly",
+                "adventurers",
+                "straight people",
+                "women",
+                "men",
+                "married couples",
+                "singles",
+                "roommates",
+                "your boss",
+                "your pet",
+                "explorers",
+                "bros",
+                "gangsters"
+            ]
+    });
 });
