@@ -8,9 +8,10 @@ $(function() {
 
             "response": [
                 "Already fucking seen one",
-                "Zuckerberg just announced it",
+                "Zuckerberg just acquired you",
                 "They just turned off their API",
-                "It's on Twitter"
+                "It's on Twitter",
+                "Bezos just announced it"
             ],
 
             "template": [
@@ -41,10 +42,12 @@ $(function() {
                 "buys clothes",
                 "does therapy",
                 "orders pizza",
+                "answers the phone",
                 "pays rent",
                 "plays exercise vidoes",
                 "drinks 6-packs",
                 "reads the news",
+                "parks your car",
                 "books an airplane flight",
                 "wins a chess game",
                 "deposits checks",
@@ -68,6 +71,7 @@ $(function() {
                 "straight people",
                 "women",
                 "men",
+                "engineers",
                 "married couples",
                 "singles",
                 "roommates",
