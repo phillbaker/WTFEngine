@@ -35,7 +35,8 @@ $(function() {
                 "Viv",
                 "Cortana",
                 "Alexa",
-                "Google Now"
+                "Google Now",
+                "Signal"
             ],
 
             "action": [
@@ -44,6 +45,7 @@ $(function() {
                 "orders pizza",
                 "answers the phone",
                 "pays rent",
+                "describes the weather",
                 "plays exercise vidoes",
                 "drinks 6-packs",
                 "reads the news",
@@ -60,7 +62,11 @@ $(function() {
                 "writes a Haiku",
                 "flips a coin",
                 "does your job",
-                "finds a hotel room"
+                "finds a hotel room",
+                "offers a Zen quote",
+                "imitates a famous person",
+                "warns of bad traffic on your route",
+                "philosophizes about life"
             ],
 
             "who": [
@@ -79,7 +85,14 @@ $(function() {
                 "your pet",
                 "explorers",
                 "bros",
-                "gangsters"
+                "gangsters",
+                "rappers",
+                "islanders",
+                "white people",
+                "hipsters",
+                "parents",
+                "other bots",
+                "zombies"
             ]
     });
 });
